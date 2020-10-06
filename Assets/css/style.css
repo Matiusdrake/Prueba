@@ -54,11 +54,8 @@ body {
   display: flex;
   height: auto;
   width: auto;
- flex-wrap: wrap;
-  
+  flex-wrap: wrap;
   margin: 2%;
-  
-  
   justify-content: space-evenly;
 
   
@@ -66,7 +63,7 @@ body {
 
 .flex-item {
   height: 480px;
-  width: 380px;
+  width: 350px;
   padding: 15px;
 
 } 
@@ -86,15 +83,86 @@ h3{
 }
 
 .hr1{
-  margin: 2%;
+margin: 2%;
  background-color:black;
 }
 
-.abajo{
-  margin-top: 100%;
+.card-img-overlay{
+  margin-top: 105%;
 }
 
 
 button {
   
 }
+
+footer{
+  height: 130px;
+  width: auto;
+}
+
+.final{
+font-size: 1%;
+padding: 3%;
+ 
+}
+
+h3{
+  font-size: 40px;
+  
+}
+.textonero{
+  
+  color: #ffffff;
+  
+  
+}
+
+.trans {
+ 
+  height: 25px;
+
+  
+}
+
+.background {
+
+  background: rgba(58, 1, 59, 0.5);
+  margin: 0px 0px 10px 0px;
+}
+
+.carousel{
+    background-color: #660066;
+    margin-top: 20px;
+    padding: 5%;
+  }
+
+
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    }
+
+  .experiencia{
+    color: #ffffff;
+    text-align: center;
+   margin-top: 0%;
+  }
+
+  .imagencarousel{
+    margin-top: 50px;
+  }
+
+  .textocarousel{
+    margin-top: 26px;
+  }
+
+  #proyectos{
+    margin-top: 150px;
+  }
+
+  #contact {
+    margin-top: 150px;
+  }
