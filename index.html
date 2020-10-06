@@ -1,87 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
 
-    <!--CSS de Bootstrap 4.2.1-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="Assets/css/bootstrap.css">
 
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="Assets/css/Fontawesome.css">
 
-    <!--Mi estilo-->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!--Estilo-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <!--Barra de Navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark morado">
-        <a class="navbar-brand" href="#">
-            <h3 class="oswald-bold">M</h3> </a>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre Mi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Trabajo</a>
+  <!--Barra de Navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark morado fixed-top ">
+    <a class="navbar-brand" href="#">
+      <h3 class="oswald-bold">M</h3>
+    </a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trabajo</a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-                
-            </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!--Principal-->
+  <header class="mt-5">
+    <div class="hero">
+      <div class="container ">
+        <div class="row align-items-center">
+          <div class="col-md-12 text-white text-center text-hero">
+            <p class="oswald-light">YO SOY</p>
+            <hr class="hr-hero">
+            <p class="oswald-bold">MAGDALENA</p>
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+  </header>
 
-    <!--Principal-->
-    <div class="hero-section">
+  <!--Sobre mi-->
+  <section id="descripcion">
+    <div class="container d-none d-sm-block d-sm-none d-md-block">
+      <div class="row">
+        <div class="col-md-12 text-center py-5 bold">
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+            consectetur, ultrices justo eu, hendrerit lectus.</h4>
+          <hr class="hr-secciones">
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6 px-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+            consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed
+            ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet.
+            Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh
+            tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci
+            id neque posuere aliquam.</p>
+        </div>
+        <div class="col-md-6 px-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+            consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed
+            ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet.
+            Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh
+            tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante
+            ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci
+            id neque posuere aliquam.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Experiencia-->
+
+  <section id="experiencia">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center oswald-bold">MI EXPERIENCIA</h1>
+          <hr class="hr-secciones">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 px-5 text-center py-3 mt-3">
+          <i class="fab  fa-5x fa-galactic-republic p-5"></i>
+          <h5 class="oswald-bold">Stormtrooper</h5>
+          <p>1980 - 2014</p>
+        </div>
+        <div class="col-md-6 px-5 text-center py-3 mt-3">
+          <i class="fab  fa-5x fa-codepen p-5"></i>
+          <h5 class="oswald-bold">Desarrolladora Rails</h5>
+          <p>2014 - 2018</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Trabajos-->
+
+  <div class="flex-container">
+
+    
+    <div class="card text-black bg-dark  flex-item">
+      <img src="Assets/img/cuppon.png" class="imagen" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
     </div>
 
-    <!--Sobre mi-->
+    <div class="card text-black bg-dark flex-item">
+      <img src="Assets/img/iguana_page.png" class="imagen" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+
+    <div class="card text-black bg-dark flex-item">
+      <img src="Assets/img/suricata.png" class="imagen" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+</div>
+
+<div class="flex-container">
+
+    
+  <div class="card text-white  flex-item">
+    <img src="Assets/img/cuppon.png" class="" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+
+  <div class="card text-white flex-item">
+    <img src="Assets/img/cuppon.png" class="" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+
+  <div class="card text-white flex-item">
+    <img src="Assets/img/cuppon.png" class="" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+</div>
 
 
-    <!--Experiencia-->
+  <!--Contacto typeform-->
+  <section id="contact" class="">
+    <h1 class="text-center oswald-bold">CONTACTO</h1>
+    <hr class="hr-secciones mb-4">
+    <h4 class="text-center mb-5">¿Quieres conocer más de mí?</h4>
+    <div class="text-center mb-3">
+      <div class="typeform-widget" data-url="https://matiasrodriguez4.typeform.com/to/jmiUkmCY"
+        style="width: 100%; height: 500px;"></div>
+      <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
+      <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+          href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
+          style="color: #999" target="_blank">Typeform</a> </div>
+    </div>
+  </section>
 
+  <!--Footer-->
+  <footer>
+    <footer class="morado">
+      <div class="container">
+        <div class="row">
+          <div class=" col-12 col-md-4">
+            <h3 class="oswald-bold text-white">Matias Rodriguez</h3>
+          </div>
+          <div class="col-md-4">
+          </div>
+          <div class=" col-12 col-md-4  col-sm-12 text-dark">
+            <i class="fab  fa-3x fa-github-square" href="https://github.com/" data-container="body"
+              data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Mis trabajos"></i>
+            <i class="fab  fa-3x fa-linkedin" href="https://www.linkedin.com/feed/" data-container="body"
+              data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Mi experiencia"></i>
+            <i class="fab fa-3x fa-twitter-square" href="https://twitter.com/" data-toggle="popover"
+              title="Puedes encontrarme aquí"
+              data-content="Escríbeme  por mis redes sociales si estás interesad@ en crear un proyecto"></i>
+            <i class="fab fa-3x fa-facebook-square" href="https://www.facebook.com/" data-container="body"
+              data-toggle="popover" data-trigger="hover" data-placement="top"
+              data-content="Contáctame en redes sociales"></i>
+          </div>
 
-    <!--Trabajos-->
+        </div>
 
+      </div>
+    </footer>
+  </footer>
 
-    <!--Contacto-->
-
-
-    <!--Footer-->
-<footer>
-
-</footer>
-<!--jQuery 3.3.1 sin slim-->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-<!--Popper JS 1.14.3-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-
-<!--Bootstrap JS 4.2.1-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<!--Mi script-->
-<script src="assets/js/script.js"></script>
+  <!--script-->
+  <script src="Assets/js/jQuery.js"></script>
+  <script src="Assets/js/bootstrap.js"></script>
+  <script src="Assets/js/popper.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 
 
 </html>

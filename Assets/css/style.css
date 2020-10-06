@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:200,400,600,700&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
   }
@@ -15,3 +17,67 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
   }
+
+  .navbar-brand{
+      margin-left: 8%;
+    }
+
+.navbar-nav {
+    margin-right: 8%;
+    }
+
+  .hero {
+    background-image: url('../img/bg_hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  header{
+    padding-top: 1em;
+  }
+  
+  .text-hero{
+    position: absolute;
+    font-size: 3em;
+    bottom: 0px;
+    right: 0px;
+  }
+  .hr-hero{
+    border: 1px solid #ffffff;
+    width: 20%;
+} 
+
+.flex-container {
+  display: flex;
+  height: auto;
+  width: auto;
+ flex-wrap: wrap;
+  
+  margin: 2%;
+  
+  
+  justify-content: space-evenly;
+
+  
+}
+
+.flex-item {
+  height: 480px;
+  width: 380px;
+  padding: 15px;
+
+} 
+
+
+
+@supports(object-fit: cover){
+  .imagen{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
