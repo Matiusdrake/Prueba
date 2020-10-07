@@ -4,7 +4,6 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
-/* Barra de navegacion*/
 .morado{
     background-color: #660066;
   }
@@ -92,10 +91,6 @@ margin: 2%;
 }
 
 
-button {
-  
-}
-
 footer{
   height: 130px;
   width: auto;
@@ -165,4 +160,10 @@ h3{
 
   #contact {
     margin-top: 150px;
+  }
+
+ 
+  .container-fluid{
+   
+    text-align: center;
   }
