@@ -4,20 +4,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-  .morado{
+.morado{
     background-color: #660066;
 }
 
-  .oswald-bold{
+.oswald-bold{
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
   }
-  .oswald-light{
+.oswald-light{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
   }
 
-  .navbar-brand{
+.navbar-brand{
       margin-left: 8%;
     }
 
@@ -25,7 +25,7 @@ body {
     margin-right: 8%;
     }
 
-  .hero {
+.head {
     background-image: url('../img/space.jpg');
     background-size: cover;
     background-position: center;
@@ -34,17 +34,17 @@ body {
     min-height: 500px;
   }
 
-  header{
-    padding-top: 1em;
+header{
+    padding-top: 5px;
   }
   
-  .text-hero{
+.text-head{
     position: absolute;
-    font-size: 3em;
-    bottom: 0px;
+    font-size: 48px;
+    bottom: 150px;
     right: 0px;
   }
-  .hr-hero{
+.hr-head{
     border: 1px solid #ffffff;
     width: 20%;
 } 
@@ -143,7 +143,7 @@ h3{
   .experiencia{
     color: #ffffff;
     text-align: center;
-   margin-top: 0%;
+    margin-top: 0%;
   }
 
   .imagencarousel{
@@ -171,3 +171,5 @@ h3{
   .card {
     margin-bottom: 30px;
   }
+
+  
